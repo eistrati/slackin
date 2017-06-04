@@ -8,9 +8,9 @@
     "babel-polyfill": "6.3.14",
     "body-parser": "1.10.2",
     "commander": "2.6.0",
-    "debug": "2.1.1",
+    "debug": "2.6.7",
     "email-regex": "1.0.0",
-    "express": "4.11.0",
+    "express": "4.15.3",
     "gulp": "3.9.0",
     "gulp-babel": "6.1.1",
     "gulp-rimraf": "0.2.0",
@@ -18,7 +18,8 @@
     "opentype.js": "0.4.4",
     "socket.io": "2.0.2",
     "superagent": "0.21.0",
-    "vd": "0.1.0"
+    "vd": "0.1.0",
+    "snyk": "^1.31.0"
   },
   "devDependencies": {
     "mocha": "2.2.4",
@@ -35,6 +36,9 @@
   "scripts": {
     "test": "mocha",
     "postinstall": "gulp",
-    "start": "node ./bin/slackin"
-  }
+    "start": "node ./bin/slackin",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
