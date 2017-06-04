@@ -18,7 +18,8 @@
     "opentype.js": "0.4.4",
     "socket.io": "2.0.0",
     "superagent": "0.21.0",
-    "vd": "0.1.0"
+    "vd": "0.1.0",
+    "snyk": "^1.31.0"
   },
   "devDependencies": {
     "mocha": "2.2.4",
@@ -35,6 +36,9 @@
   "scripts": {
     "test": "mocha",
     "postinstall": "gulp",
-    "start": "node ./bin/slackin"
-  }
+    "start": "node ./bin/slackin",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
