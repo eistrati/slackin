@@ -17,7 +17,7 @@
     "hostenv": "1.0.1",
     "opentype.js": "0.4.4",
     "socket.io": "2.0.2",
-    "superagent": "2.0.0",
+    "superagent": "3.8.1",
     "vd": "0.1.0",
     "snyk": "^1.31.0"
   },
