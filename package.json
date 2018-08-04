@@ -11,7 +11,7 @@
     "debug": "2.6.9",
     "email-regex": "1.0.0",
     "express": "4.16.0",
-    "gulp": "3.9.0",
+    "gulp": "4.0.0",
     "gulp-babel": "6.1.1",
     "gulp-rimraf": "0.2.0",
     "hostenv": "1.0.1",
