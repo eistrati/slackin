@@ -19,7 +19,7 @@
     "socket.io": "2.0.2",
     "superagent": "3.8.1",
     "vd": "0.1.0",
-    "snyk": "^1.31.0"
+    "snyk": "^1.231.0"
   },
   "devDependencies": {
     "mocha": "2.2.4",
